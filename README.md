@@ -1,112 +1,43 @@
-![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/simcoder_here)
-[![image](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/simcoder_here/)
-[![image](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/simcoder)
+# Uber Clone (Java + Firebase)
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/SimCoderYoutube/UberClone">
-    <img src="images/simcoder.png" alt="Logo" width="120" height="120">
-  </a>
+## Overview
 
-  <h3 align="center">Uber Clone</h3>
+This Uber Clone app replicates key functionalities of the Uber ride-hailing service, developed using **Java** and **Firebase** for backend services. The app allows users to book rides, track drivers, and handle payments seamlessly. In addition to the core Uber features, this clone includes two additional unique features for enhancing the passenger experience during long journeys, as well as a smart fare calculation system based on real-time traffic data.
 
-  <p align="center">
-    A Uber clone app made with android native (java) and firebase
-    <br />
-    <a href="https://github.com/SimCoderYoutube/UberClone/wiki"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/SimCoderYoutube/UberClone/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/SimCoderYoutube/UberClone/issues">Request Feature</a>
-  </p>
-</p>
+## Features
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#support">Support</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+### Core Features
+- **Ride Booking**: Users can book a ride by selecting pickup and drop locations.
+- **Real-Time Location Tracking**: Track the driver's location using Google Maps integration.
+- **Driver and Customer Authentication**: Firebase Authentication for both drivers and riders, including phone number and email login.
+- **In-App Payment Integration**: Multiple payment options available within the app.
+- **Ride History**: Both riders and drivers can view their ride history.
 
-<!-- ABOUT THE PROJECT -->
+### Additional Features
 
-## ℹ️ About The Project
+#### 1. In-App Games and Movies (Extra Feature)
+- **Entertainment on Long Journeys**: Passengers can enjoy a selection of in-app games and movies during long trips, keeping them entertained throughout the journey.
+  - **Movies**: A curated list of popular movies available for passengers to watch.
+  - **Games**: Simple yet engaging games that passengers can play to pass the time.
 
-![alt text](images/mockup.png "Title")
+#### 2. Smart Fare Calculation System (My Suggested Feature)
+- **Real-Time Fare Adjustment Based on Traffic**: This feature leverages live traffic data to estimate and adjust the fare during a trip. In high-traffic conditions, the fare will be dynamically updated, helping users get a more accurate trip cost based on the current traffic scenario.
 
-This repo contains the project made in my youtube chanel called simcoder. This project is a clone of the Uber android app.
+#### 3. Emergency Alert System (Extra Feature)
+- **SOS and Emergency Contacts**: An emergency alert button is integrated into the app for both riders and drivers. Users can press this button in any critical situation, which will immediately notify emergency services and the user’s predefined emergency contacts, along with the current location.
 
-It is made using android native with java and some firebase services (authentication, real time database and storage).
+---
 
-In the [master](https://github.com/SimCoderYoutube/UberClone/tree/master) branch you have the redesign project which I was previously selling in my website, however you still have access to the youtube series repo in the [youtube_series](https://github.com/SimCoderYoutube/UberClone/tree/youtube_series)
+## Tech Stack
 
-You can follow the youtube series in the following [link](https://www.youtube.com/watch?v=7HbQx0lwRww&list=PLxabZQCAe5fgXx8cn2iKOtt0VFJrf5bOd&ab_channel=SimCoder)
+- **Frontend**: Java (Android)
+- **Backend**: Firebase (Authentication, Realtime Database, Cloud Firestore)
+- **Map Integration**: Google Maps API
+- **Payment Gateway**: Integrated with payment services such as Stripe or PayPal
+- **Real-Time Fare Calculation**: Google Directions API for traffic and route analysis
 
-## 🆕 Getting Started
+## Installation
 
-- ### **Prerequisites**
-
-  - [Android Studio](https://developer.android.com/)
-  - [Firebase](https://firebase.google.com/)
-
-<!-- GETTING STARTED -->
-
-- ### **Installation**
-
-  In order to deploy the project you'll need to follow the [wiki page](https://github.com/SimCoderYoutube/UberClone/wiki/Setup-your-project) dedicated to this effect.
-
-## 🚧 Roadmap
-
-See the [open issues](https://github.com/SimCoderYoutube/UberClone/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-
-## ➕ Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please check the [Wiki](https://github.com/SimCoderYoutube/UberClone/wiki/How-to-Contribute)
-
-## 🌟 Show your support
-
-Give a ⭐️ if this project helped you!
-
-And don't forget to subscribe to the [youtube chanel](https://www.youtube.com/c/SimpleCoder?sub_confirmation=1)
-
-## 📝 License
-
-Copyright © 2021 [SimCoder](https://github.com/simcoderYoutube).
-
-This project is [MIT](https://github.com/SimCoderYoutube/UberClone/blob/master/LICENSE) licensed. Some of the dependencies are licensed differently.
-
-<!-- CONTACT -->
-
-## 👤 Contact
-
-**SimCoder**
-
-- Website: www.simcoder.com
-- Twitter: [@simcoder_here](https://twitter.com/simcoder_here)
-- Github: [@simcoderYoutube](https://github.com/simcoderYoutube)
-- Youtube: [SimCoder](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/uberclone.git
